@@ -1,5 +1,18 @@
-# Inverted-Search
- To run this project, you may follow these general steps:
+# Inverted Search Project
+
+This project implements an **Inverted Search** mechanism, a fundamental concept in search engines and text retrieval systems. The program efficiently indexes and retrieves data by mapping terms to their locations in a dataset, enabling fast and relevant search results.
+
+## Features
+- **Data Indexing**: Creates an inverted index for words from a given input (e.g., text files).
+- **Search Functionality**: Retrieves data based on input queries using the inverted index.
+- **File Handling**: Processes multiple input files to build a comprehensive index.
+- **Efficient Search**: Provides fast lookup for terms across indexed files.
+
+## How It Works
+1. The program reads text from input files.
+2. It tokenizes the text into individual words and builds an inverted index.
+3. The inverted index maps each word to its occurrences (e.g., file names, line numbers).
+4. Users can query the system to find files or lines where specific words appear.
 
 1. **Compilation:**
    - Ensure that you have a suitable compiler installed on your system, like GCC for C projects.
